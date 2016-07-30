@@ -1,0 +1,156 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "Resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION FILEVERSION_VALUE
+ PRODUCTVERSION PRODUCTVERSION_VALUE
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x0L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "SdkCommon Library"
+            VALUE "CompanyName", "LZT"
+            VALUE "FileDescription", "SdkCommon Library Application extersion"
+            VALUE "FileVersion", FILEVERSION_DISPLAY_VALUE
+            VALUE "InternalName", "SdkCommonLib"
+            VALUE "LegalCopyright", "Copyright (C) 2011 LZT CORPORATION, All Rights Reserved"
+            VALUE "OriginalFilename", "SdkCommonLib.dll"
+            VALUE "ProductName", "SdkCommon Library"
+            VALUE "ProductVersion", PRODUCTVERSION_DISPLAY_VALUE
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+STRINGTABLE 
+BEGIN
+
+    // For crypting.
+    IDS_CRYPT_SUCCESS                       "Operation success!"
+    IDS_CRYPT_FAILED                        "Operation failure!"
+    IDS_CRYPT_INVALID_KEY                   "The key is invalid!"
+    IDS_CRYPT_INVALID_FILE                  "The file is invalid!"
+    IDS_CRYPT_ENCRYPT_ERROR                 "Failed to encrypt file!"
+    IDS_CRYPT_DECRYPT_ERROR                 "Failed to decrypt file!"
+    IDS_CRYPT_CANCEL_ERROR                  "The operation is canceled."
+    IDS_CRYPT_OTHER_ERROR                   "Unknown errors!"
+    IDS_CRYPT_ACCESS_DENIED                 "You have insufficient priveldges to perform this operation."
+    IDS_CRYPT_WRITE_PROTECT                 "The media is write protected."
+    IDS_CRYPT_DISK_FULL                     "There is not enough space on the disk."
+    IDS_CRYPT_SHARING_VIOLATION             "The program cannot access the file because it is being used by another program."
+    IDS_CRYPT_PATH_NOT_FOUND                "The full path of the destination file may be too long or invalid."
+    IDS_CRYPT_NOFILES                       "There is no files to crypt."
+    IDS_CRYPT_IVALIDPARAM                   "Invalid parameters."
+    IDS_CRYPT_IVALIDPWD                     "Invalid password."
+    IDS_FILE_NOT_FOUND                      "File is not found."
+    IDS_OPEN_FILE_FAILURE                   "Open file failed!"
+
+    // The progress dialog
+    IDS_ENCRYPT_PROGRESS_DLG_TITLE          "Encrypt Files"
+    IDS_ENCRYPT_PROGRESS_DLG_LINE1          "The Files are Encrypting..."
+    IDS_ENCRYPT_PROGRESS_DLG_LINE2          "Starting, please wait..."
+    IDS_ENCRYPT_PROGRESS_DLG_LINE3          "Calculating the remaining time..."
+    IDS_DECRYPT_PROGRESS_DLG_TITLE          "Decrypt Files"
+    IDS_DECRYPT_PROGRESS_DLG_LINE1          "The Files are Decrypting..."
+    IDS_DECRYPT_PROGRESS_DLG_LINE2          "Processing, please wait..."
+    IDS_DECRYPT_PROGRESS_DLG_LINE3          "Calculating the remaining time..."
+    IDS_PROGRESS_DLG_CANCEL_MSG             "Canceled..."
+
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

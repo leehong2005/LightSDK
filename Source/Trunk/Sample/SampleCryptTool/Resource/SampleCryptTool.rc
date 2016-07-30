@@ -1,0 +1,178 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG_PASSWORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 151
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 75
+    END
+
+    IDD_DIALOG_CRYPT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 274
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+    END
+
+    IDD_DIALOG_MSG, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 278
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 110
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_PASSWORD DIALOGEX 0, 0, 158, 82
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Input Password"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_PWD1,8,7,142,14,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PWD2,8,27,142,14,ES_PASSWORD | ES_AUTOHSCROLL
+    PUSHBUTTON      "OK",IDOK,100,61,50,14
+    LTEXT           "",IDC_STATIC_ERRORPWD,8,48,142,8
+END
+
+IDD_DIALOG_CRYPT DIALOGEX 0, 0, 281, 182
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SampleCryptTool"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Encrypt",IDC_BTN_MAINDLG_ENCRYPT,119,161,50,14
+    PUSHBUTTON      "Decrypt",IDC_BTN_MAINDLG_DECRYPT,171,161,50,14
+    PUSHBUTTON      "Close",IDC_BTN_MAINDLG_CANCEL,224,161,50,14
+    PUSHBUTTON      "Browser...",IDC_BTN_MAINDLG_BROWSER,224,7,50,14
+    CONTROL         "Delete Original Files",IDC_CHECK_DELORIFILES,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,61,131,10
+    CONTROL         "Replace Existed Files",IDC_CHECK_REPLAACEFILES,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,76,131,10
+    CONTROL         "Suppress Error Dialog",IDC_CHECK_NOERROLIST,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,91,131,10
+    EDITTEXT        IDC_EDIT_FILES,9,24,262,14,ES_AUTOHSCROLL
+    CONTROL         "File Name",IDC_STATIC_FILENAME,"Static",SS_LEFTNOWORDWRAP | SS_CENTERIMAGE | WS_GROUP,11,9,197,12
+    GROUPBOX        "Crypt Option",IDC_STATIC_FILENAME,7,45,123,110
+    GROUPBOX        "Password Option",IDC_STATIC_FILENAME,150,45,123,110
+    PUSHBUTTON      "Set Password",IDC_BTN_SETPWD,160,59,50,14
+END
+
+IDD_DIALOG_MSG DIALOGEX 0, 0, 281, 114
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CAPTION | WS_SYSMENU
+CAPTION "Error List"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "OK",IDC_BTN_ERRORDLG_OK,141,95,65,14
+    PUSHBUTTON      "Copy to clipboard",IDC_BTN_ERRORDLG_COPY,210,95,65,14
+    CONTROL         "Message",IDC_LIST_ERRORDLG_MSG,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,267,82
+    LTEXT           "",IDC_STATIC_TOTALERROR,11,96,127,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_SMALL               ICON                    "small.ico"
+IDI_SAMPLECRYPTTOOL     ICON                    "SampleCryptTool.ico"
+IDI_ERROR_MSG           ICON                    "error.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "SampleCryptTool"
+    IDC_SAMPLECRYPTTOOL     "SAMPLECRYPTTOOL"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

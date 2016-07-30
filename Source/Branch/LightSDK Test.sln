@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestCommon", "Test\TestCommon\TestCommon.vcproj", "{F992D07B-300A-46A6-8BB2-92FE96710C1D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestButtonCtrl", "Test\TestButtonCtrl\TestButtonCtrl.vcproj", "{E1E69E90-F0BE-4DD7-9809-719AC4D72152}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestPreviewHandler", "Test\TestPreviewHandler\TestPreviewHandler.vcproj", "{4FBFB749-395D-4D5D-8276-ED8A3D63B676}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestWindowForm", "Test\TestWindowForm\TestWindowForm.vcproj", "{A1500F74-968D-4409-8E4E-918CCF62C702}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F992D07B-300A-46A6-8BB2-92FE96710C1D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F992D07B-300A-46A6-8BB2-92FE96710C1D}.Debug|Win32.Build.0 = Debug|Win32
+		{F992D07B-300A-46A6-8BB2-92FE96710C1D}.Release|Win32.ActiveCfg = Release|Win32
+		{F992D07B-300A-46A6-8BB2-92FE96710C1D}.Release|Win32.Build.0 = Release|Win32
+		{E1E69E90-F0BE-4DD7-9809-719AC4D72152}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E1E69E90-F0BE-4DD7-9809-719AC4D72152}.Debug|Win32.Build.0 = Debug|Win32
+		{E1E69E90-F0BE-4DD7-9809-719AC4D72152}.Release|Win32.ActiveCfg = Release|Win32
+		{E1E69E90-F0BE-4DD7-9809-719AC4D72152}.Release|Win32.Build.0 = Release|Win32
+		{4FBFB749-395D-4D5D-8276-ED8A3D63B676}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4FBFB749-395D-4D5D-8276-ED8A3D63B676}.Debug|Win32.Build.0 = Debug|Win32
+		{4FBFB749-395D-4D5D-8276-ED8A3D63B676}.Release|Win32.ActiveCfg = Release|Win32
+		{4FBFB749-395D-4D5D-8276-ED8A3D63B676}.Release|Win32.Build.0 = Release|Win32
+		{A1500F74-968D-4409-8E4E-918CCF62C702}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A1500F74-968D-4409-8E4E-918CCF62C702}.Debug|Win32.Build.0 = Debug|Win32
+		{A1500F74-968D-4409-8E4E-918CCF62C702}.Release|Win32.ActiveCfg = Release|Win32
+		{A1500F74-968D-4409-8E4E-918CCF62C702}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

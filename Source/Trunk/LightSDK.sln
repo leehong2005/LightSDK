@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SdkFrameworkLib", "SdkFrameworkLib\SdkFrameworkLib.vcproj", "{7F42BEA1-C676-42F8-BF1D-B503CD5289C1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C1A9CFF-161A-437A-AB20-661FC015E3E3} = {4C1A9CFF-161A-437A-AB20-661FC015E3E3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SdkCommonLib", "SdkCommonLib\SdkCommonLib.vcproj", "{4C1A9CFF-161A-437A-AB20-661FC015E3E3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SdkResourceLib", "SdkResourceLib\SdkResourceLib.vcproj", "{CB6EC9BD-DB2F-49B8-8035-0C7E079602D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F42BEA1-C676-42F8-BF1D-B503CD5289C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7F42BEA1-C676-42F8-BF1D-B503CD5289C1}.Debug|Win32.Build.0 = Debug|Win32
+		{7F42BEA1-C676-42F8-BF1D-B503CD5289C1}.Release|Win32.ActiveCfg = Release|Win32
+		{7F42BEA1-C676-42F8-BF1D-B503CD5289C1}.Release|Win32.Build.0 = Release|Win32
+		{4C1A9CFF-161A-437A-AB20-661FC015E3E3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4C1A9CFF-161A-437A-AB20-661FC015E3E3}.Debug|Win32.Build.0 = Debug|Win32
+		{4C1A9CFF-161A-437A-AB20-661FC015E3E3}.Release|Win32.ActiveCfg = Release|Win32
+		{4C1A9CFF-161A-437A-AB20-661FC015E3E3}.Release|Win32.Build.0 = Release|Win32
+		{CB6EC9BD-DB2F-49B8-8035-0C7E079602D5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB6EC9BD-DB2F-49B8-8035-0C7E079602D5}.Debug|Win32.Build.0 = Debug|Win32
+		{CB6EC9BD-DB2F-49B8-8035-0C7E079602D5}.Release|Win32.ActiveCfg = Release|Win32
+		{CB6EC9BD-DB2F-49B8-8035-0C7E079602D5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+Version 1.0.0.0
+	1，增加MediaUICommon工程的命名空间，namespace Common。
+	2，将WIC模块从MediaUIFramework工程移到MediaUICommon工程。
+	3，增加CommonMacro.h文件，宏定义都定义在这个文件之中。
+	4，增加的宏如下：
+		BEGIN_NAMESPACE、END_NAMESPACE、USING_NAMESPACE、SAFE_ADDREF等。
+	5，将一些功能性的类，放到Utilities目录（工程逻辑目录）。
+	6，去掉了MeidaInfo.h, VideoInfo.h, LinkInfo.h, PictureInfo, MusicInfo.h文件，增加		FileProperty.h文件。把原来的结构体定义到FileProperty.h文件中。
+	7，增加了PreviewHandler类，用来预览指定文件（目前仍不完善，如无法预览图片）。
+	8，增加FrameworkCommonDef.h文件，原来定义在CommonDef.h时里面的窗体类名移到这个文件了。
+	9，修改了Window及WindowForm类的部分接口，添加Close, CenterWindow, GetClassName等接口。
+
+
+Version 1.0.0.1
